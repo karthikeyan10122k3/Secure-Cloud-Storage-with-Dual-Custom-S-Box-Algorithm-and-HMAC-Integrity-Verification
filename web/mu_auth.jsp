@@ -12,7 +12,7 @@
    out.println("<script>"); 			
    out.println("alert(\"Delete User Successfully\")");
    out.println("</script>");
-        RequestDispatcher rd=request.getRequestDispatcher("/Manageown.jsp");  
+        RequestDispatcher rd=request.getRequestDispatcher("/muauth.jsp");  
         rd.include(request, response);  
   
 

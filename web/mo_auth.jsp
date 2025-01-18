@@ -12,6 +12,6 @@
    out.println("<script>"); 			
    out.println("alert(\"Delete Owner Successfully\")");
    out.println("</script>");
-        RequestDispatcher rd=request.getRequestDispatcher("/Manageown.jsp");  
+        RequestDispatcher rd=request.getRequestDispatcher("/moauth.jsp");  
         rd.include(request, response);  
 %>
