@@ -1,0 +1,130 @@
+<!--valid-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn More - Secure Cloud Storage</title>
+  <link href="assets/img/ProjectIcon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    #header {
+      background: #007bff;
+      color: white;
+      padding: 15px;
+    }
+
+    #header h1 {
+      font-size: 1.8rem;
+      margin: 0;
+    }
+
+    #main-content {
+      padding: 30px;
+    }
+
+    h2, h3 {
+      color: #007bff;
+    }
+
+    .feature-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .feature-list li {
+      margin-bottom: 10px;
+    }
+
+    .feature-list li i {
+      color: #007bff;
+      margin-right: 10px;
+    }
+
+    #footer {
+      background: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    #footer a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    #footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header" class="text-center">
+    <h1>Secure Cloud Storage - Learn More</h1>
+  </header>
+
+  <!-- Main Content -->
+  <div id="main-content" class="container">
+    <h2>Project Title: Secure Cloud Storage with Dual Custom S-Box Algorithm and HMAC Integrity Verification</h2>
+    <p>
+      This project proposes an advanced cryptographic solution for secure cloud storage by implementing a custom encryption algorithm known as the Dual Custom S-Box Algorithm. The focus is on ensuring the confidentiality, integrity, and authenticity of the stored data while maintaining high performance and minimal computational overhead.
+    </p>
+
+    <h3>Key Features:</h3>
+    <ul class="feature-list">
+      <li><i class="bi bi-shield-lock"></i><strong>Dual Custom S-Box Encryption Algorithm:</strong> A novel approach using custom S-boxes for higher security.</li>
+      <li><i class="bi bi-check-circle"></i><strong>HMAC with SHA-256:</strong> Ensures data integrity and authentication.</li>
+      <li><i class="bi bi-key"></i><strong>SHA-256 for Key Derivation:</strong> Adds a layer of security for key generation.</li>
+      <li><i class="bi bi-cloud-arrow-up"></i><strong>Efficient Cloud Storage Encryption:</strong> Optimized processes for encryption and decryption.</li>
+      <li><i class="bi bi-person-check"></i><strong>User Authentication:</strong> Only authorized users can access encrypted data.</li>
+      <li><i class="bi bi-clock-history"></i><strong>Forward and Backward Security:</strong> Protects data even if passphrases or keys are compromised.</li>
+    </ul>
+
+    <h3>Detailed Flow of the Project:</h3>
+    <p><strong>1. Data Encryption:</strong> The user’s passphrase is used to generate a secure encryption key. Data is encrypted using the Dual Custom S-Box Algorithm, and an HMAC is appended for integrity verification.</p>
+    <p><strong>2. Data Decryption:</strong> Encrypted data is verified using the HMAC before being decrypted with the user’s passphrase.</p>
+    <p><strong>3. Key Derivation:</strong> PBKDF2 with SHA-256 ensures unique and secure keys for each session.</p>
+    <p><strong>4. HMAC Integrity Check:</strong> Ensures no tampering has occurred during transmission or storage.</p>
+
+    <h3>Security Improvements and Performance Optimizations:</h3>
+    <ul class="feature-list">
+      <li><i class="bi bi-arrow-repeat"></i><strong>Enhanced Security:</strong> Resistant to cryptographic attacks like differential and linear cryptanalysis.</li>
+      <li><i class="bi bi-speedometer2"></i><strong>Optimized Performance:</strong> High efficiency with minimal computational impact.</li>
+      <li><i class="bi bi-check-circle-fill"></i><strong>Data Integrity:</strong> HMAC ensures data authenticity.</li>
+    </ul>
+
+    <h3>Conclusion:</h3>
+    <p>
+      This project presents a robust solution for secure cloud storage using advanced encryption and integrity verification techniques. The Dual Custom S-Box Algorithm and HMAC with SHA-256 offer strong security guarantees, making it an ideal system for sensitive cloud storage needs.
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+     &copy; 2024 Filecrypt Manager. All Rights Reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
