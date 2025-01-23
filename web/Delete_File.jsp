@@ -2,7 +2,6 @@
 
 <%@page import="java.sql.*"%>
 <%
-//    System.out.println("HEREEEEEEEEE!!!!!");
   String id = request.getParameter("id");
      String  file =request.getParameter("file");
 
